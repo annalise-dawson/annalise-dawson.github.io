@@ -1,0 +1,133 @@
+h2 {
+  font-size: 65px;
+  font-family: 'Fraunces', serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: bold;
+  font-variation-settings: 'SOFT' 0, 'WONK' 0;
+  color: #201e4b;
+  background-color: #c6e7a3;
+}
+
+p {
+  font-family: 'Poppins', serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ece9e7;
+}
+
+.header-container {
+  display: flex;
+  height: 15vh;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #c6e7a3;
+}
+
+.header {
+  text-align: left;
+}
+
+#header-logo {
+  width: 50px;
+  padding: 10px 0px 10px 50px;
+}
+
+#header-title {
+  width: 800px;
+  padding-bottom: 30px;
+  padding-left: 100px;
+}
+
+#header-links a {
+  text-decoration: none;
+  font-family: 'Poppins', serif;
+  font-weight: 900;
+  font-style: normal;
+  color: #201e4b;
+  padding-right: 30px;
+}
+
+#header-links a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+}
+
+#header-links {
+  padding-top: 50px;
+}
+
+.intro-container {
+  display: flex;
+  background-color: #d4a3e2;
+  justify-content: space-around;
+}
+
+#intro-image img {
+  border-radius: 100px;
+  padding: 50px 50px 50px 50px;
+}
+
+#intro-body {
+  font-family: 'Poppins', serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #201e4b;
+  padding-left: 50px;
+  padding: 30px 50px 50px 50px;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: 'Fraunces', serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings: 'SOFT' 0, 'WONK' 0;
+  color: #201e4b;
+}
+
+.recent-container {
+  display: flex;
+  background-color: #ece9e7;
+}
+
+.blog-posts-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Poppins', serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 30px;
+  background-color: #ece9e7;
+  padding-bottom: 50px;
+}
+
+.blog-posts {
+  text-align: center;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#CSS {
+  background-color: #c6e7a3;
+  color: #201e4b;
+}
+
+#HTML {
+  background-color: #201e4b;
+  color: #d4a3e2;
+}
+
+#Java {
+  background-color: #9166f1;
+  color: #ece9e7;
+}
