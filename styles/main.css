@@ -1,10 +1,3 @@
-p {
-  font-family: 'Poppins', serif;
-  font-weight: 400;
-  font-style: normal;
-  color: #201e4b;
-}
-
 .header-container {
   display: flex;
   height: 20vmin;
@@ -86,7 +79,7 @@ h2 {
   font-family: 'Poppins', serif;
   font-weight: 900;
   font-style: normal;
-  font-size: 2vmin;
+  font-size: 4vmin;
   color: #d4a3e2;
 }
 
@@ -94,8 +87,24 @@ h3 {
   font-family: 'Poppins', serif;
   font-weight: 900;
   font-style: normal;
-  font-size: 1.5vmin;
+  font-size: 3vmin;
   color: #d4a3e2;
+}
+
+p {
+  font-family: 'Poppins', serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #201e4b;
+  font-size: 2vmin;
+}
+
+ul {
+  font-family: 'Poppins', serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #201e4b;
+  font-size: 2vmin;
 }
 
 .recent-container {
