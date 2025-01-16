@@ -7,26 +7,24 @@ p {
 
 .header-container {
   display: flex;
-  height: 15vh;
+  height: 20vmin;
   align-content: center;
   align-items: center;
   justify-content: space-between;
   background-color: #c6e7a3;
-}
-
-.header {
-  text-align: left;
+  text-align: center;
 }
 
 #header-logo {
-  width: 50px;
-  padding: 10px 0px 10px 50px;
+  max-width: 100%;
+  height: auto;
+  width: 50vmin;
+  padding: 10vmin 10vmin 10vmin 10vmin;
 }
 
 #header-title {
-  width: 800px;
-  padding-bottom: 30px;
-  padding-left: 100px;
+  width: 150vmin;
+  padding-right: 20vmin;
 }
 
 #header-links a {
@@ -35,16 +33,17 @@ p {
   font-weight: 900;
   font-style: normal;
   color: #201e4b;
-  padding-right: 30px;
+  padding-right: 10vmin;
 }
 
 #header-links a:hover {
   text-decoration: underline;
-  text-decoration-thickness: 3px;
+  text-decoration-thickness: 1vmin;
 }
 
 #header-links {
-  padding-top: 50px;
+  width: 100vmin;
+  padding-top: 10vmin;
 }
 
 .intro-container {
@@ -54,8 +53,11 @@ p {
 }
 
 #intro-image img {
-  border-radius: 100px;
-  padding: 50px 50px 50px 50px;
+  border-radius: 20vmin;
+  padding: 10vmin 10vmin 10vmin 10vmin;
+  max-width: 100%;
+  height: auto;
+  width: 300vmin;
 }
 
 #intro-body {
@@ -63,12 +65,11 @@ p {
   font-weight: 400;
   font-style: normal;
   color: #201e4b;
-  padding-left: 50px;
-  padding: 30px 50px 50px 50px;
+  padding: 5vmin 10vmin 10vmin 20vmin;
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 5vmin;
   font-family: 'Fraunces', serif;
   font-optical-sizing: auto;
   font-weight: 900;
@@ -89,16 +90,16 @@ h1 {
   font-family: 'Poppins', serif;
   font-weight: 900;
   font-style: normal;
-  font-size: 20px;
+  font-size: 3vmin;
   background-color: #ece9e7;
-  padding-bottom: 50px;
+  padding-bottom: 5vmin;
 }
 
 .blog-posts {
   text-align: center;
   border-radius: 50%;
-  height: 200px;
-  width: 200px;
+  height: 30vmin;
+  width: 30vmin;
   text-align: center;
   border-radius: 50%;
   display: flex;
@@ -137,7 +138,9 @@ h1 {
 
 /* phones */
 @media only screen and (max-width: 400px) {
-  .container {
-    /* some layout rules */
+  .intro-container {
+    display: flex;
+    background-color: #d4a3e2;
+    flex-wrap: wrap;
   }
 }
