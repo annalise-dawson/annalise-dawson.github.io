@@ -55,10 +55,13 @@ p {
 
 #intro-image img {
   border-radius: 20vmin;
-  padding: 10vmin 10vmin 10vmin 10vmin;
   max-width: 100%;
   height: auto;
   width: 300vmin;
+}
+
+#intro-image {
+  padding: 5vmin 5vmin 5vmin 5vmin;
 }
 
 #intro-body {
@@ -125,15 +128,30 @@ h1 {
 
 /* widescreen displays */
 @media only screen and (min-width: 920px) {
-  .container {
-    /* some layout rules */
+  #intro-image img {
+    width: 500vmin;
+  }
+
+  #intro-image {
+    padding: 10vmin 5vmin 5vmin 5vmin;
   }
 }
 
 /* tablets */
 @media only screen and (max-width: 919px) {
-  .container {
-    /* some layout rules */
+  .intro-container {
+    display: flex;
+    background-color: #d4a3e2;
+    flex-wrap: wrap;
+  }
+
+  #header-links {
+    width: 100vmin;
+    padding-top: 10vmin;
+  }
+
+  #header-links a {
+    padding-right: 2vmin;
   }
 }
 
