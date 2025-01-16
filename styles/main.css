@@ -16,15 +16,16 @@ p {
 }
 
 #header-logo {
+  width: 100vmin;
+}
+
+#header-logo img {
   max-width: 100%;
   height: auto;
-  width: 50vmin;
-  padding: 10vmin 10vmin 10vmin 10vmin;
 }
 
 #header-title {
   width: 150vmin;
-  padding-right: 20vmin;
 }
 
 #header-links a {
@@ -38,7 +39,7 @@ p {
 
 #header-links a:hover {
   text-decoration: underline;
-  text-decoration-thickness: 1vmin;
+  text-decoration-thickness: 0.2vmin;
 }
 
 #header-links {
@@ -142,5 +143,14 @@ h1 {
     display: flex;
     background-color: #d4a3e2;
     flex-wrap: wrap;
+  }
+
+  #header-links {
+    width: 100vmin;
+    padding-top: 0vmin;
+  }
+
+  #header-links a {
+    padding-right: 2vmin;
   }
 }
