@@ -82,6 +82,22 @@ h1 {
   color: #201e4b;
 }
 
+h2 {
+  font-family: 'Poppins', serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 2vmin;
+  color: #d4a3e2;
+}
+
+h3 {
+  font-family: 'Poppins', serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 1.5vmin;
+  color: #d4a3e2;
+}
+
 .recent-container {
   display: flex;
   background-color: #ece9e7;
@@ -116,7 +132,7 @@ h1 {
   color: #201e4b;
 }
 
-#HTML {
+#margin-border-padding {
   background-color: #201e4b;
   color: #d4a3e2;
 }
