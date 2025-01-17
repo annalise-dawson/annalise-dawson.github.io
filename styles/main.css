@@ -139,11 +139,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-#Te-Houtaewa {
-  background-color: #c6e7a3;
-  color: #201e4b;
+  margin-top: 5vmin;
 }
 
 #margin-border-padding {
@@ -151,9 +147,19 @@ img {
   color: #d4a3e2;
 }
 
-#Java {
+#learning-plan {
   background-color: #9166f1;
   color: #ece9e7;
+}
+
+#values {
+  background-color: #c6e7a3;
+  color: #201e4b;
+}
+
+#te-houtaewa {
+  background-color: #201e4b;
+  color: #d4a3e2;
 }
 
 /* widescreen displays */
@@ -200,5 +206,10 @@ img {
 
   #header-links a {
     padding-right: 0vmin;
+  }
+
+  .blog-posts-container {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
