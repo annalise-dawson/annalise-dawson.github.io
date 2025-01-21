@@ -99,7 +99,8 @@ p {
   font-size: 2vmin;
 }
 
-ul {
+ul,
+ol {
   font-family: 'Poppins', serif;
   font-weight: 400;
   font-style: normal;
@@ -127,37 +128,47 @@ img {
   font-size: 3vmin;
   background-color: #ece9e7;
   padding-bottom: 5vmin;
+  flex-wrap: wrap;
 }
 
-.blog-posts {
+.blog-link-1 {
   text-align: center;
   border-radius: 50%;
   height: 30vmin;
   width: 30vmin;
   text-align: center;
-  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 5vmin;
-}
-
-#margin-border-padding {
-  background-color: #201e4b;
-  color: #d4a3e2;
-}
-
-#learning-plan {
-  background-color: #9166f1;
-  color: #ece9e7;
-}
-
-#values {
   background-color: #c6e7a3;
   color: #201e4b;
 }
 
-#te-houtaewa {
+.blog-link-2 {
+  text-align: center;
+  border-radius: 50%;
+  height: 30vmin;
+  width: 30vmin;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5vmin;
+  background-color: #9166f1;
+  color: #ece9e7;
+}
+
+.blog-link-3 {
+  text-align: center;
+  border-radius: 50%;
+  height: 30vmin;
+  width: 30vmin;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5vmin;
   background-color: #201e4b;
   color: #d4a3e2;
 }
