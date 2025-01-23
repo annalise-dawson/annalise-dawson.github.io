@@ -79,7 +79,7 @@ h2 {
   font-family: 'Poppins', serif;
   font-weight: 900;
   font-style: normal;
-  font-size: 4vmin;
+  font-size: 3vmin;
   color: #d4a3e2;
 }
 
@@ -87,7 +87,7 @@ h3 {
   font-family: 'Poppins', serif;
   font-weight: 900;
   font-style: normal;
-  font-size: 3vmin;
+  font-size: 2vmin;
   color: #d4a3e2;
 }
 
@@ -171,6 +171,19 @@ img {
   margin-top: 5vmin;
   background-color: #201e4b;
   color: #d4a3e2;
+}
+
+.codeblock {
+  font-family: 'Poppins', serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #201e4b;
+  font-size: 2vmin;
+  background-color: #c6e7a3;
+  border-color: #201e4b;
+  border-style: solid;
+  display: inline-block;
+  padding: 2vmin;
 }
 
 /* widescreen displays */
