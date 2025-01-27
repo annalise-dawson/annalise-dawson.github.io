@@ -186,14 +186,33 @@ img {
   padding: 2vmin;
 }
 
+table,
+th,
+td {
+  border: 1px solid;
+  border-color: #201e4b;
+  font-family: 'Poppins', serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #201e4b;
+  font-size: 2vmin;
+  padding: 2vmin;
+  margin: 2vmin;
+}
+
+#wall,
+#activities {
+  font-family: 'Poppins', serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #201e4b;
+  font-size: 2vmin;
+}
+
 /* widescreen displays */
 @media only screen and (min-width: 920px) {
   #intro-image img {
     width: 300vmin;
-  }
-
-  #intro-image {
-    padding: 10vmin 5vmin 5vmin 5vmin;
   }
 }
 
