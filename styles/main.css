@@ -106,18 +106,29 @@ ol {
 }
 
 /* BLOGS */
-.recent-container,
-.blog-posts-container {
+.recent-container {
   display: flex;
   background-color: #87a680;
 }
 
-.blog-posts-container {
+.recent-blog-posts-container {
+  display: flex;
   justify-content: space-around;
   align-items: center;
+  font-family: 'Poppins', serif;
+  font-weight: 300;
+  font-style: normal;
   font-size: 3vmin;
+  background-color: #ece9e7;
   padding-bottom: 5vmin;
   flex-wrap: wrap;
+  background-color: #87a680;
+}
+
+.blog-img {
+  width: 60vmin;
+  height: 40vmin;
+  margin: 3vmin;
 }
 
 .blog-link-1,
