@@ -62,8 +62,7 @@ img {
 /* TYPOGRAPHY */
 h1 {
   font-size: 5vmin;
-  font-weight: 900;
-  color: #4f364b;
+  font-weight: 700;
 }
 
 h2,
@@ -91,24 +90,18 @@ ol {
 .intro-container {
   position: relative;
   text-align: center;
-  background-color: #f7e9de;
-  color: #f7e9de;
 }
 
-#intro-title {
+.intro-body {
   position: absolute;
-  top: 20%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  background-color: rgba(155, 166, 128, 0.7);
+  border-radius: 5%;
   color: #f7e9de;
-}
-
-#intro-body {
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #f7e9de;
+  padding: 1vmin;
+  width: 70%;
 }
 
 /* BLOGS */
