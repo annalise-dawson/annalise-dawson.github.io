@@ -34,17 +34,18 @@ img {
 }
 
 #header-logo {
-  width: 50vmin;
+  width: 40vmin;
 }
 
 #header-logo img {
   max-width: 100%;
   height: auto;
+  padding: 1vmin;
 }
 
 #header-links {
-  width: 100vmin;
   padding-top: 10vmin;
+  padding-right: 2vmin;
 }
 
 #header-links a {
@@ -97,7 +98,7 @@ ol {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgba(155, 166, 128, 0.7);
+  background-color: rgba(155, 166, 128, 0.8);
   border-radius: 5%;
   color: #f7e9de;
   padding: 1vmin;
