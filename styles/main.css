@@ -4,12 +4,12 @@
   align-content: center;
   align-items: center;
   justify-content: space-between;
-  background-color: #c6e7a3;
+  background-color: #f7e9de;
   text-align: center;
 }
 
 #header-logo {
-  width: 100vmin;
+  width: 50vmin;
 }
 
 #header-logo img {

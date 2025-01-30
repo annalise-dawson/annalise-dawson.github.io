@@ -15,7 +15,7 @@
   <body>
     <div class="header-container">
       <div class="header" id="header-logo">
-        <img src="/blog-logo.png" width="150" height="130" id="logo" />
+        <img src="/photos/blog-logo.png" width="150" height="130" id="logo" />
       </div>
       <div class="header" id="header-title">
         <h1>THE CODING CHRONICLES</h1>
@@ -26,10 +26,8 @@
         <a href="/about.html">ABOUT</a>
       </div>
     </div>
-
     <h1>JAVASCRIPT AND THE DOM</h1>
     <h3>24 January 2024</h3>
-
     <h2>JavaScript and its relationship to HTML and CSS</h2>
     <p>
       Imagine you're building a car. HTML is like the frame and body of the car
@@ -47,9 +45,7 @@
       would just sit there, looking good but not going anywhere. JavaScript
       brings the interactivity and functionality.
     </p>
-
     <h2>Control Flow and Loops in JavaScript</h2>
-
     <p>
       Control flow is the order in which a program runs. It's like following a
       set of instructions that can change depending on the situation. For
@@ -57,7 +53,6 @@
       true, and something else if it's not. It's like asking: "If it's raining,
       take an umbrella. If it's sunny, wear sunglasses."
     </p>
-
     <p>
       Loops are helpful when you need to repeat a task multiple times. Say you
       have a list of items you want to display on a webpage, you could use a
@@ -66,15 +61,12 @@
       manually, a loop allows it to repeat the task automatically for every item
       in the list.
     </p>
-
     <h2>The Document Object Model (DOM)</h2>
-
     <p>
       Now that we know how JavaScript interacts with HTML and CSS let's talk
       about the DOM! When building a webpage, HTML, CSS, JavaScript, and the DOM
       each have an important role in bringing everything together.
     </p>
-
     <p>
       The DOM (Document Object Model) acts as a bridge between the webpage and
       JavaScript. It's an internal, live representation of your HTML structure
@@ -82,13 +74,11 @@
       your HTML content. JavaScript then interacts with the DOM to manipulate
       the page.
     </p>
-
     <p>
       Let's say you have a button on a page and when you click it the background
       colour of the page changes. In the background HTML, CSS, JavaScript, and
       the DOM are all working together to make this happen.
     </p>
-
     <ul>
       <li>The button is defined in HTML and given the id 'myButton'.</li>
       <li>
@@ -108,72 +98,55 @@
         clicked.
       </li>
     </ul>
-
     <h2>How to access data from arrays and how to access data from objects</h2>
-
     <p>
       Firstly, what's the difference between arrays and objects? Well they're
       both ways of storing data but they're used a little differently. An array
       is an ordered list written like this:
     </p>
-
     <p class="codeblock">
       Let sonicCharacters = ['sonic', 'tails', 'DrRobotnik']
     </p>
-
     <p>
       In an array, each item has a numeric index starting from 0. So,
       sonicCharacters[0] is "sonic", sonicCharacters[1] is "tails", and
       sonicCharacters[2] is "DrRobotnik".
     </p>
-
     <p>
       An object stores data as a collection of key-value pairs. It looks like
       this:
     </p>
-
     <p class="codeblock">
-      Let sonicCharacters = {
-      <br />main: 'sonic', <br />bestFriend: 'tails', <br />enemy:'DrRobotnik'
-      <br />}
+      Let sonicCharacters = { <br />main: 'sonic', <br />bestFriend: 'tails',
+      <br />enemy:'DrRobotnik' <br />}
     </p>
-
     <p>
       In an object, each piece of data has a key (like main, bestFriend, enemy)
       and a corresponding value (like sonic, tails, DrRobotnik). The key helps
       you access the data.
     </p>
-
     <p>
       To get data from an array, you refer to the index of the item you want.
       Since arrays are ordered, the first item has an index of 0. I want to
       console.log Sonic (because they're my favourite). So I'll write:
     </p>
-
     <p class="codeblock">console.log(sonicCharacters[0])</p>
-
     <p>
       To get data from an object, you use the key associated with the value. The
       key is like a label that helps you find the data you need. To see sonic I
       would need the write:
     </p>
-
     <p class="codeblock">console.log(sonicCharacters.name)</p>
-
     <h2>Functions</h2>
-
     <p>
       A function in JavaScript is like a little "tool" that does a specific job.
       You can use it whenever you need it, instead of writing the same code over
       and over. It's super handy for organising your code and making it easier
       to read. For example:
     </p>
-
     <p class="codeblock">
-      function praiseSonic() {
-      <br />console.log('Sonic is my hero!'); <br />}
+      function praiseSonic() { <br />console.log('Sonic is my hero!'); <br />}
     </p>
-
     <p>
       Now, whenever you want to say "Sonic is my hero!" you just call
       praiseSonic() instead of writing the console.log() every time. This isn't
