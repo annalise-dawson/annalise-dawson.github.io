@@ -35,16 +35,21 @@
       was divisible by 15 it should return flipflop.
     </p>
     <p>I originally wrote it like this:</p>
-    <p class="codeblock">
-      export function flipflop(numberParameter) { <br />
-      if (numberParameter % 3 === 0) { <br />
-      return 'Flip' <br />
-      } else if (numberParameter % 5 === 0) { <br />
-      return 'Flop' <br />
-      } else if (numberParameter % 15 === 0) { <br />
-      return 'Flipflop' <br />
-      } else { <br />return numberParameter <br />} <br />}
-    </p>
+    <textarea cols="50" rows="14" readonly>
+      
+      export function flipflop(numberParameter) {
+
+        if (numberParameter % 3 === 0) { 
+        return 'Flip' 
+        } else if (numberParameter % 5 === 0) {
+        return 'Flop'
+        } else if (numberParameter % 15 === 0) {
+        return 'Flipflop'
+        } else { 
+        return numberParameter
+        }
+      }
+    </textarea>
     <p>
       And I thought why the heck doesn't this work? It worked for numbers
       divisible by 3 and 5 but not 15. So I checked what the error was and it
@@ -56,16 +61,21 @@
       divisble by 3! So all I need to do is put the if statement for numbers
       divisble by 15 at the start.
     </p>
-    <p class="codeblock">
-      export function flipflop(numberParameter) { <br />
-      if (numberParameter % 15 === 0) { <br />
-      return 'FlipFlop' <br />
-      } else if (numberParameter % 3 === 0) { <br />
-      return 'Flip' <br />
-      } else if (numberParameter % 5 === 0) { <br />
-      return 'Flop' <br />
-      } else { <br />return numberParameter <br />} <br />}
-    </p>
+    <textarea cols="50" rows="14" readonly>
+      
+      export function flipflop(numberParameter) {
+          
+        if (numberParameter % 15 === 0) {
+        return 'FlipFlop' 
+        } else if (numberParameter % 3 === 0) { 
+        return 'Flip' 
+        } else if (numberParameter % 5 === 0) { 
+        return 'Flop'
+        } else { 
+        return numberParameter 
+        }
+      }
+    </textarea>
     <p>
       And voila! It worked! Sometimes you've just got to think it all through.
       Think like the code, if you were this code how would you deal with a
@@ -77,10 +87,10 @@
       individual words and then filter out all the annoying buzzing sounds! The
       string looked something like this:
     </p>
-    <p class="codeblock">
-      sentence = 'Buzz biZZ buZz help buzz BIZZ I'm being attacked by Bees! buzz
-      BUZZ'
-    </p>
+    <textarea cols="90" rows="4" readonly>
+      
+      sentence = 'Buzz biZZ buZz help buzz BIZZ I'm being attacked by Bees! buzz BUZZ'
+    </textarea>
     <p>
       So we needed to get rid of all the buzzing and just be left with 'Help I'm
       being attacked by bees!' I got to work and started by writing some
@@ -93,53 +103,74 @@
       string into an array' and 'how to remove words from an array'. This gave
       me what I was looking for and I was ready to write some code!
     </p>
-    <p class="codeblock">
-      function deBee(sentence) { <br />sentence.split(' ') <br />.filter((word)
-      => word.includes('z')) <br />.join(' ') <br />
+    <textarea cols="50" rows="8" readonly>
+      
+      function deBee(sentence) { 
+        sentence.split(' ') 
+        .filter((word)
+        => word.includes('z')) 
+        .join(' ')
       }
-    </p>
+    </textarea>
     <p>
       Okay this isn't working at all where have I gone wrong D: The test error
       is giving me absolutely nothing. Well that's something. <br />I'm not
       making and new sentence or returning the sentence anywhere. Easy fix.
     </p>
-    <p class="codeblock">
-      function deBee(sentence) { <br />let filteredSentence = sentence
-      <br />.split(' ') <br />.filter((word) => word.includes('z'))
-      <br />.join(' ') <br />return filteredSentence <br />
+    <textarea cols="50" rows="9" readonly>
+      
+      function deBee(sentence) { 
+        let filteredSentence = sentence
+        .split(' ') 
+        .filter((word) => word.includes('z'))
+        .join(' ')  
+        return filteredSentence
       }
-    </p>
+    </textarea>
     <p>
       Wait why the heck is it just 'Buzz biZZ buZz buzz BIZZ Bees! buzz BUZZ'.
       That's the oposite of what I want! Hmmm okay so lets google how to make it
       NOT include. Ahhh yes a simple ! at the start should do it!
     </p>
-    <p class="codeblock">
-      function deBee(sentence) { <br />let filteredSentence = sentence
-      <br />.split(' ') <br />.filter((word) => !word.includes('z'))
-      <br />.join(' ') <br />return filteredSentence <br />
+    <textarea cols="50" rows="9" readonly>
+      
+      function deBee(sentence) { 
+        let filteredSentence = sentence
+        .split(' ') 
+        .filter((word) => !word.includes('z'))
+        .join(' ')
+        return filteredSentence
       }
-    </p>
+    </textarea>
     <p>
       Okay we're getting somewhere but it's returned 'help BIZZ I'm being
       attacked by Bees! BUZZ'. It's those bloody capitals so lets try this.
     </p>
-    <p class="codeblock">
-      function deBee(sentence) { <br />let filteredSentence = sentence
-      <br />.split(' ') <br />.filter((word) => !word.includes('z', 'Z'))
-      <br />.join(' ') <br />return filteredSentence <br />
+    <textarea cols="50" rows="9" readonly>
+      
+      function deBee(sentence) { 
+        let filteredSentence = sentence
+        .split(' ') 
+        .filter((word) => !word.includes('z', 'Z'))
+        .join(' ') 
+        return filteredSentence
       }
-    </p>
+    </textarea>
     <p>
       Nope didn't work! Lets have another google. I see so you can't just chuck
       a comma in and hope it works.
     </p>
-    <p class="codeblock">
-      function deBee(sentence) { <br />let filteredSentence = sentence
-      <br />.split(' ') <br />.filter((word) => !word.includes('z') &&
-      !word.includes('Z')) <br />.join(' ') <br />return filteredSentence <br />
+    <textarea cols="50" rows="10" readonly>
+     
+      function deBee(sentence) { 
+        let filteredSentence = sentence
+        .split(' ') 
+        .filter((word) => !word.includes('z') &&
+        !word.includes('Z')) 
+        .join(' ') 
+        return filteredSentence 
       }
-    </p>
+    </textarea>
     <p>
       And voila! It worked! I found here just trying something and reading the
       error message was the best way to it. And of course google is your best

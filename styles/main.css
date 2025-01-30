@@ -165,13 +165,9 @@ ol {
 }
 
 /* CODE */
-.codeblock {
-  font-size: 2vmin;
+textarea {
   background-color: #4f364b;
-  color: #ece9e7;
-  border: solid 1px #4f364b;
-  padding: 2vmin;
-  display: inline-block;
+  color: #f7e9de;
 }
 
 /* TABLES */
