@@ -16,7 +16,6 @@ td {
   font-family: 'Poppins', serif;
   font-weight: 400;
   font-style: normal;
-  color: #4f364b;
 }
 
 img {
@@ -43,10 +42,6 @@ img {
   height: auto;
 }
 
-#header-title {
-  width: 150vmin;
-}
-
 #header-links {
   width: 100vmin;
   padding-top: 10vmin;
@@ -62,26 +57,6 @@ img {
 #header-links a:hover {
   text-decoration: underline;
   text-decoration-thickness: 0.2vmin;
-}
-
-/* INTRO */
-.intro-container {
-  display: flex;
-  justify-content: space-around;
-  background-color: #f7e9de;
-}
-
-#intro-image {
-  padding: 5vmin;
-}
-
-#intro-image img {
-  border-radius: 20vmin;
-  width: 300vmin;
-}
-
-#intro-body {
-  padding: 5vmin 10vmin;
 }
 
 /* TYPOGRAPHY */
@@ -110,6 +85,30 @@ p,
 ul,
 ol {
   font-size: 2vmin;
+}
+
+/* INTRO */
+.intro-container {
+  position: relative;
+  text-align: center;
+  background-color: #f7e9de;
+  color: #f7e9de;
+}
+
+#intro-title {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #f7e9de;
+}
+
+#intro-body {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #f7e9de;
 }
 
 /* BLOGS */
