@@ -92,6 +92,7 @@ img {
 h1 {
   font-size: 5vmin;
   font-weight: 700;
+  color: #4f364b;
 }
 
 h2,
@@ -131,6 +132,10 @@ ol {
   color: #f7e9de;
   padding: 1vmin;
   width: 70%;
+}
+
+#intro-title {
+  color: #f7e9de;
 }
 
 /* BLOGS */
