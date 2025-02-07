@@ -46,7 +46,8 @@ img {
 
 #header-links a {
   text-decoration: none;
-  font-weight: 900;
+  font-size: 3vmin;
+  font-weight: 400;
   color: #4f364b;
   margin-right: 2vmin;
 }
@@ -78,6 +79,7 @@ img {
 
 #footer-links a {
   text-decoration: none;
+  font-size: 2vmin;
   font-weight: 400;
   color: #4f364b;
   margin-right: 2vmin;
@@ -197,6 +199,12 @@ ol {
   color: #4f364b;
 }
 
+.blog-posts-container a {
+  text-decoration: underline;
+  text-decoration-color: #4f364b;
+  color: #4f364b;
+}
+
 /* CODE */
 textarea {
   background-color: #4f364b;
@@ -243,10 +251,6 @@ td {
 
 /* Phones */
 @media only screen and (max-width: 400px) {
-  #header-links {
-    padding-top: 0;
-  }
-
   .blog-posts-container {
     flex-wrap: wrap;
   }
